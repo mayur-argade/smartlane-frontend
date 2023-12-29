@@ -1,0 +1,7 @@
+.selects{
+    outline: none;
+  }
+.selects:focus{
+    box-shadow: none;
+    border: 2px solid #B9B2DC;
+  }

@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+	<title>Ellipse 22-svg</title>
+	<defs>
+		<image width="32" height="32" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE1Ljk5OTggMTEuOTk5OVYxNi45OTk5TTMuNTk1NzYgMjEuNTAxMkMyLjQ0MTA5IDIzLjUwMTIgMy44ODUwOSAyNS45OTk5IDYuMTkzMDkgMjUuOTk5OUgyNS44MDY0QzI4LjExMzEgMjUuOTk5OSAyOS41NTcxIDIzLjUwMTIgMjguNDAzOCAyMS41MDEyTDE4LjU5ODQgNC41MDM5MUMxNy40NDM4IDIuNTAzOTEgMTQuNTU1OCAyLjUwMzkxIDEzLjQwMTEgNC41MDM5MUwzLjU5NTc2IDIxLjUwMTJaTTE1Ljk5OTggMjAuOTk5OUgxNi4wMDkxVjIxLjAxMDZIMTUuOTk5OFYyMC45OTk5WiIgc3Ryb2tlPSIjRjlENzVEIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K"/>
+	</defs>
+	<style>
+		.s0 { fill: #1e1e1e } 
+	</style>
+	<path id="Layer" class="s0" d="m20 40c-11.1 0-20-8.9-20-20 0-11.1 8.9-20 20-20 11.1 0 20 8.9 20 20 0 11.1-8.9 20-20 20z"/>
+	<use id="Frame" href="#img1" transform="matrix(1,0,0,1,4,4)"/>
+</svg>

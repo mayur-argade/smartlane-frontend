@@ -1,0 +1,10 @@
+.right-notification {
+    border-radius: 16px 0px 0px 16px;
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 428px; 
+      height: 100vh;  
+      background-color: #000; 
+      z-index: 999;  
+    }

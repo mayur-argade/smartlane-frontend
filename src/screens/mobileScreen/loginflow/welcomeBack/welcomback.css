@@ -1,0 +1,19 @@
+.gif {
+}
+
+.gif.play {
+  animation: playAnimation 1s steps(10) infinite; /* Adjust the animation duration and steps as needed */
+}
+
+.gif.pause {
+  animation-play-state: paused;
+}
+
+@keyframes playAnimation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2000px 0; /* Adjust the background-position based on your GIF width and number of frames */
+  }
+}

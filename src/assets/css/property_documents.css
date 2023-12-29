@@ -1,0 +1,152 @@
+.propdoc-navbrand {
+  margin: 0 24px 0 12px;
+}
+.propdoc-portfolioimage {
+  background-color: transparent !important;
+  margin-bottom: 45px;
+  margin-top: 16px;
+}
+.propdoc-sidemenu {
+  margin-bottom: 45px;
+}
+.color_white {
+  color: #ffffff !important;
+}
+.propdoc-viewdoc-button {
+  background-color: #000000 !important;
+  color: #404040 !important;
+}
+.propdoc-rightside {
+  margin-right: 10px;
+}
+.propdoc-input-container {
+  margin-top: -45px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  font-feature-settings: "salt" on;
+  color: #ffffff;
+}
+.propdoc-disp-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.propdoc-form-grouptwo {
+  border: 2px dashed #ffffff;
+  border-radius: 16px;
+  padding: 10px;
+  position: relative;
+  width: 48%;
+}
+.propdoc-buildingimage {
+  position: absolute;
+  top: 15px;
+}
+.propdoc-buildinglabel {
+  left: 60px;
+  position: absolute;
+  font-size: 20px;
+  top: 15px;
+}
+.propdoc-inputmain {
+  opacity: 0;
+  height: 45px;
+}
+.propdoc-inputbackground {
+  background: #ffffff;
+}
+.propdoc-landlordinsurancediv {
+  border-radius: 16px;
+  padding: 10px;
+  position: relative;
+  width: 48%;
+  background: #ffffff;
+  color: #000000;
+}
+.propdoc-vectorimage {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.propdoc-landlordvectotalertdiv {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  background-color: red;
+
+  border-radius: 40px;
+  padding: 5px 8px 11px 8px;
+}
+
+.propdoc-mortagediv {
+  border-radius: 16px;
+  padding: 10px;
+  position: relative;
+  width: 48%;
+  background: #ffffff;
+  color: #000000;
+}
+
+.propdoc-greenvectordiv {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  background-color: green;
+  border-radius: 40px;
+  padding: 5px 8px 11px 8px;
+}
+.propdocmargintop {
+  margin-top: -40px;
+}
+
+.propdoc-commonlabel {
+  position: absolute;
+  top: 15px;
+  font-size: 20px;
+  left: 60px;
+}
+.propdoclettinbuttondiv {
+  display: flex;
+  justify-content: center;
+}
+.propdocfirstbutton {
+  border: none;
+  border-radius: 16px;
+  padding: 5px 16px;
+  color: #000000;
+  background-color: #f9d75d;
+}
+.propdocfirstbuttonimg {
+  background: #000000;
+  padding: 4px;
+  border-radius: 27px;
+}
+.propdocsecondbutton {
+  border: none;
+  border-radius: 16px;
+  padding: 5px 16px;
+  color: #ffffff;
+  background-color: #000000;
+}
+@media screen and (max-width: 1334px) {
+  .propdoc-disp-flex {
+    flex-direction: column;
+  }
+  .propdoc-form-grouptwo {
+    width: 100%;
+  }
+  .propdoc-landlordinsurancediv {
+    width: 100%;
+  }
+  .propdoc-mortagediv {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 508px) {
+  .propdoc-commonlabel {
+    font-size: 15px;
+  }
+}

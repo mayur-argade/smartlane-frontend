@@ -1,0 +1,416 @@
+p {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.home-message-main {
+    width: 360px;
+    height: 120px;
+    align-items: center;
+    color: #fff;
+    font-family: Moderat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 35;
+    margin-right: 35;
+    z-index: 4;
+    margin-bottom: 16px;
+}
+
+.home-message-sub-1 {
+    color: #b9b2dc;
+    font-family: Moderat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home-message-sub-2 {
+    color: #fff;
+    font-family: Moderat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.card-container {
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 854px;
+}
+
+.field-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* margin-bottom: 16px; */
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.innner_form {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    width: 100%;
+}
+
+.Carddiv {
+    display: flex;
+}
+
+.hamburger {
+    display: none !important;
+}
+
+@media screen and (max-width: 400px) {
+    .hamburger {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block !important;
+    }
+
+    .nav-bar-container {
+        display: none;
+    }
+
+    .innner_form {
+        margin-bottom: 55px !important;
+    }
+
+    .homemobile {
+        position: relative;
+        top: 20px;
+    }
+
+    .css-46bh2p-MuiCardContent-root {
+        padding: 16px 0px !important;
+    }
+
+    .css-j204z7-MuiFormControlLabel-root {
+        width: 290px !important;
+    }
+
+    .sideNavBat_listItem__TVr8M {
+        padding: 10px 0 !important;
+    }
+
+    .sidebarresponseul {
+        margin-left: -24px !important;
+    }
+
+    .main {
+        margin-bottom: 45px;
+    }
+
+    .Carddiv {
+        display: block;
+    }
+
+    .home-message-main {
+        height: 59px !important;
+    }
+
+    .homemenu1 {
+        position: relative;
+        bottom: -32px;
+    }
+
+    
+}
+
+/* For medium-sized screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for medium-sized screens */
+    /* ... */
+
+    .main {
+        margin-bottom: 100px;
+    }
+
+    .home-message-main {
+        height: 59px !important;
+    }
+
+    .nav-bar-container {
+        flex: 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .form-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .home-message-main {
+        margin-bottom: 80px;
+        width: 854px;
+        height: 93px;
+        align-items: center;
+        color: #fff;
+        font-family: Moderat;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        z-index: 4;
+    }
+
+    .home-message-sub-1 {
+        font-size: 48px;
+        color: #b9b2dc;
+        font-family: Moderat;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .home-message-sub-2 {
+        font-size: 32px;
+        color: #fff;
+        font-family: Moderat;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .card-container {
+        width: 854px;
+    }
+
+    .field-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+        flex-direction: row;
+    }
+}
+
+/* For larger screens */
+@media screen and (min-width: 1025px) {
+
+    /* Styles for larger screens */
+    /* ... */
+    .nav-bar-container {
+        flex: 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main {
+        margin-bottom: 100px;
+    }
+
+    .home-message-main {
+        margin-bottom: 80px;
+        width: 854px;
+        height: 93px;
+        align-items: center;
+        color: #fff;
+        font-family: Moderat;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        z-index: 4;
+    }
+
+    .home-message-sub-1 {
+        font-size: 48px;
+        color: #b9b2dc;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .home-message-sub-2 {
+        font-size: 32px;
+        color: #fff;
+        font-family: Moderat;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .card-container {
+        width: 854px;
+    }
+
+    .field-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+        flex-direction: row;
+    }
+
+    .form-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.backimage {
+    background-image: url("../../assets/img/BackgroundHome.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 999;
+}
+
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+    font-size: 14px !important;
+}
+
+.lnd_mainlnding {
+    font-family: ModeratRegular;
+    color: #FFF;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lnd_mainlnding span.home-message-sub-1 {
+    font-family: ModeratRegular;
+}
+
+.home-message-main p.home-message-sub-2 {
+    color: #FFF;
+    font-family: ModeratRegular;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.form_head1 {
+    color: #000;
+    text-align: center;
+    font-family: ModeratRegular;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 100% */
+}
+
+.frm_check_head {
+    color: #1E1E1E;
+    font-family: ModeratRegular;
+    font-size: 12.883px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card_top_form label {
+    color: #000;
+    font-family: ModeratRegular !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.frm_main .MuiFormControl-root .MuiOutlinedInput-notchedOutline,
+.frm_main .MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+    border-radius: 8px;
+    border: 1px solid #BDB5B5;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border: 2px solid #F9D75D !important;
+}
+
+.frm_main .email_input .MuiOutlinedInput-notchedOutline {
+    height: 73px;
+}
+
+.form_submt {
+    border-radius: 8px !important;
+    background: #F9D75D !important;
+    height: 72.266px !important;
+    flex-shrink: 0;
+    box-shadow: none !important;
+    color: #000 !important;
+    text-align: center;
+    font-family: ModeratRegular !important;
+    font-size: 24px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+    text-transform: capitalize;
+    margin-top: 20px !important;
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav-bar-container,
+    .mbl_hdn {
+        display: none !important;
+    }
+
+    .lnd_mainlnding {
+        font-size: 24px;
+    }
+
+    .home-message-main p.home-message-sub-2 {
+        font-size: 20px;
+    }
+
+    .innner_form {
+        margin-top: 30px !important;
+    }
+
+    .css-1v5z4dq-MuiPaper-root-MuiCard-root {
+        width: 105% !important;
+    }
+
+    .form_head1 {
+        margin-bottom: 15px;
+        font-size: 26px !important;
+    }
+
+    .css-1v5z4dq-MuiPaper-root-MuiCard-root {
+        padding: 0px 15px !important;
+    }
+
+    .frm_check_head {
+        margin-bottom: 0px;
+    }
+
+    .css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+        font-size: 13px !important;
+    }
+
+}

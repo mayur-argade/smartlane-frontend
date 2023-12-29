@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="32" height="32" fill="#343434"/>
+<g id="Ownership Screens">
+<path d="M-238 -390C-238 -391.105 -237.105 -392 -236 -392H3176C3177.1 -392 3178 -391.105 3178 -390V1124C3178 1125.1 3177.1 1126 3176 1126H-236C-237.105 1126 -238 1125.1 -238 1124V-390Z" fill="#404040"/>
+<g id="Property 1 Ownership Area">
+<rect width="1440" height="1024" transform="translate(-158 -145)" fill="black"/>
+<rect id="Large Panel Area" x="-22" y="-25" width="1280" height="872" rx="16" fill="#1E1E1E"/>
+<g id="Column Separators">
+</g>
+<g id="Portfolio overview">
+<g id="Left arrow">
+<path id="Vector" d="M9 11L4 16M4 16L9 21M4 16H28" stroke="#B9B2DC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<path d="M-236 -391H3176V-393H-236V-391ZM3177 -390V1124H3179V-390H3177ZM3176 1125H-236V1127H3176V1125ZM-237 1124V-390H-239V1124H-237ZM-236 1125C-236.552 1125 -237 1124.55 -237 1124H-239C-239 1125.66 -237.657 1127 -236 1127V1125ZM3177 1124C3177 1124.55 3176.55 1125 3176 1125V1127C3177.66 1127 3179 1125.66 3179 1124H3177ZM3176 -391C3176.55 -391 3177 -390.552 3177 -390H3179C3179 -391.657 3177.66 -393 3176 -393V-391ZM-236 -393C-237.657 -393 -239 -391.657 -239 -390H-237C-237 -390.552 -236.552 -391 -236 -391V-393Z" fill="white" fill-opacity="0.1"/>
+</g>
+</svg>

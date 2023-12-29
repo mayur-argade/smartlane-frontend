@@ -1,0 +1,39 @@
+{
+  "name": "smart lane",
+  "short_name": "smart lane",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "standalone",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "maskable_icon.png",
+      "type": "image/png",
+      "sizes": "196x196",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logos192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logos256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "logos384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "logos512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "browser_action": {
+    "default_popup": "path/to/extension/popup.html"
+  }
+}

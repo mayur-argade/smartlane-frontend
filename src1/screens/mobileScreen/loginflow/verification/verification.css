@@ -1,0 +1,30 @@
+.otp_submit{
+    width: 100%;
+    font-size: 24px;
+    background-color: #000 !important;
+    border: none;
+    color: #B9B2DC !important;
+    padding: 18px;
+    margin-top: 15px;
+    border-radius: 16px;
+}
+.otp_submits{
+    width: 100%;
+    font-size: 24px;
+    background-color: #F9D75D !important;
+    border: none;
+    color: #000 !important;
+    padding: 18px;
+    margin-top: 15px;
+    border-radius: 16px;
+}
+.resize{
+  font-weight: 700;
+  font-size: 25px;
+}
+ 
+/* .login_form form .form-group input:focus,
+.login_form form .form-group select:focus{
+  box-shadow: none;
+  border: 2px solid #B9B2DC;
+} */

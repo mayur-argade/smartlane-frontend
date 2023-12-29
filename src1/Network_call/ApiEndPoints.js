@@ -1,0 +1,52 @@
+const APPConfig = {
+  API_URL: process.env.REACT_APP_API_KEY
+  // API_URL: "http://192.168.29.17:3002/api "http://localhost:3002/api" process.env.REACT_APP_API_KEY",
+};
+
+const ApiEndPoints = {
+  Login: `${APPConfig.API_URL}/login`,
+  Register: `${APPConfig.API_URL}/register`,
+  UserAdd: `${APPConfig.API_URL}/userAdd`,
+  ForgotPassword: `${APPConfig.API_URL}/forgotpassword`,
+  VerifyOTP: `${APPConfig.API_URL}/verifyotp`,
+  ResetPassword: `${APPConfig.API_URL}/resetpassword`,
+  ResendOTP: `${APPConfig.API_URL}/resendotp`,
+  SearchPostcode: `${APPConfig.API_URL}/searchPostcode`,
+  PropertList: `${APPConfig.API_URL}/propertList`,
+  AdminPropertList: `${APPConfig.API_URL}/adminPropertyList`,
+  AllPropertList: `${APPConfig.API_URL}/allProperty`,
+  AddProperty: `${APPConfig.API_URL}/addproperty`,
+  AdminAddProperty: `${APPConfig.API_URL}/adminAddProperty`,
+  PropertyDetails: `${APPConfig.API_URL}/propertyDetail`,
+  PropertyDetailsAdmin: `${APPConfig.API_URL}/adminPropertyDetail`,
+  PropertyDelete: `${APPConfig.API_URL}/propertyDelete`,
+  PropertyDocUpload: `${APPConfig.API_URL}/upload`,
+  NotificationList: `${APPConfig.API_URL}/getNotificationList`,
+  ClearNotification: `${APPConfig.API_URL}/clearNotification`,
+  ClearDocNotification: `${APPConfig.API_URL}/clearDocNotification`,
+  SeenNotification: `${APPConfig.API_URL}/seenNotification`,
+  SeenDocNotification: `${APPConfig.API_URL}/seenDocNotification`,
+  CountNotification: `${APPConfig.API_URL}/countNotification`,
+  DocumentList: `${APPConfig.API_URL}/documentList`,
+  AdminDocumentList: `${APPConfig.API_URL}/adminDocumentList`,
+  AdminDocumentUpload: `${APPConfig.API_URL}/adminDocUpload`,
+  DashboardData: `${APPConfig.API_URL}/portfolio`,
+  PropertyEdit: `${APPConfig.API_URL}/propertyEdit`,
+  PropertySaleValue: `${APPConfig.API_URL}/property-valuation-sale`,
+  FilterUser: `${APPConfig.API_URL}/filter`,
+  SendPortfolio: `${APPConfig.API_URL}/sendPortfolio`,
+  AllDocumentList: `${APPConfig.API_URL}/allDocumentList`,
+  MonthlyValuation: `${APPConfig.API_URL}/monthly-valuation`,
+  SocialLogin: `${APPConfig.API_URL}/socialLogin`,
+  GetDocument: `${APPConfig.API_URL}/getDoc/`,
+  AdminPropertyEdit: `${APPConfig.API_URL}/adminPropertyEdit`,
+  GetDocExpiry: `${APPConfig.API_URL}/getDocExpiry`,
+  ExpireInsurace: `${APPConfig.API_URL}/expireInsurance`,
+  DocExpire: `${APPConfig.API_URL}/docExpire`,
+  DocNotificationList: `${APPConfig.API_URL}/getDocNotificationList`,
+
+  // VerifyEmail: `${APPConfig.API_URL}/verify-email`,
+  // ResetPassword: `${APPConfig.API_URL}/reset-password`,
+};
+
+export default ApiEndPoints;

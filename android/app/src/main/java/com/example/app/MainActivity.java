@@ -1,0 +1,5 @@
+package com.smartlane;
+
+import com.getcapacitor.BridgeActivity;
+
+public class MainActivity extends BridgeActivity {}

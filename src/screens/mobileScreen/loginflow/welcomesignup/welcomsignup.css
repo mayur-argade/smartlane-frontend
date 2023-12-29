@@ -1,0 +1,20 @@
+.DDDD{
+    color: #FFF;
+font-feature-settings: 'dlig' on, 'salt' on;
+font-family: "Clash Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.topdiv{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+.topdivs{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+}
